@@ -1,11 +1,11 @@
 import React from 'react';
 import { StyleSheet, Text, View, Button, Alert } from 'react-native';
 
-const onPress = () => {
-  Alert.alert('Hello World','Yes, Hello World!');
-}
-
 export default function App() {
+  const onPress = () => {
+    Alert.alert('Hello World','Yes, Hello World!');
+  }
+
   return (
     <View style={styles.container}>
       <Text>Open up App.tsx to start working on your app!</Text>
